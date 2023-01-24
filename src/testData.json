@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "name": "personalInfo",
+      "label": "Personal Information",
+      "formFields": [
+        {
+          "name": "firstName",
+          "label": "First Name",
+          "type": "text",
+          "placeholder": "Enter your first name",
+          "required": true
+        },
+        {
+          "name": "lastName",
+          "label": "Last Name",
+          "type": "text",
+          "placeholder": "Enter your last name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "placeholder": "Enter your email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "placeholder": "Enter your phone number",
+          "required": true
+        },
+        {
+          "name": "password",
+          "label": "Password",
+          "type": "password",
+          "placeholder": "Enter your password",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "Date",
+          "type": "date",
+          "placeholder": "Enter date",
+          "required": true,
+          "minDate": "2018-01-01",
+          "maxDate": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "name": "questionnaire",
+      "label": "Questionnaire",
+      "formFields": [
+        {
+          "name": "question1",
+          "label": "Question 1",
+          "type": "radio",
+          "required": true,
+          "options": [
+            { "label": "Option 1", "value": "option1" },
+            { "label": "Option 2", "value": "option2" },
+            { "label": "Option 3", "value": "option3" }
+          ]
+        },
+        {
+          "name": "question2",
+          "label": "Question 2",
+          "type": "checkbox",
+          "required": true,
+          "options": [
+            { "label": "Option 1", "value": "option1" },
+            { "label": "Option 2", "value": "option2" },
+            { "label": "Option 3", "value": "option3" }
+          ]
+        },
+        {
+          "name": "question3",
+          "label": "Question 3",
+          "type": "select",
+          "placeholder": "Select an option",
+          "required": true,
+          "options": [
+            { "label": "Option 1", "value": "option1" },
+            { "label": "Option 2", "value": "option2" },
+            { "label": "Option 3", "value": "option3" }
+          ]
+        }
+      ]
+    }
+  ]
+}
